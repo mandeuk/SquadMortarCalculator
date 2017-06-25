@@ -422,7 +422,10 @@ LRESULT CALLBACK ChildProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		
 		
 		SelectObject(finalDC, oldBitmap);
+		DeleteObject(hBitmap);
+		DeleteObject(oldBitmap);
 		DeleteDC(finalDC);
+		DeleteDC(hDC);
 		EndPaint(hWnd, &ps);
 		break;
 	case WM_DESTROY:
