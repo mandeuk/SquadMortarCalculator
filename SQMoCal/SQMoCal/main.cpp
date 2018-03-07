@@ -160,7 +160,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, LPARAM lParam)
 			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 45, "A : Ingame map Alphabat Coordinate", 34);
 			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 65, "1 : Ingame map Number Coordinate", 32);
 			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 85, "2 : Keypad number", 17);
-			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 105, "3 : Sub Keypad number", 26);
+			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 105, "3 : Sub Keypad number", 21);
 			TextOut(hDC, HELPTEXT_X, HELPTEXT_Y + 130, "¡Ø. This version can calculate  ", 32);
 			TextOut(hDC, HELPTEXT_X + 20, HELPTEXT_Y + 150, "Approximate Value", 17);
 

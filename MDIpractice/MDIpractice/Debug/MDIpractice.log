@@ -1,6 +1,0 @@
-﻿  MDIpractice.cpp
-c:\users\mande\documents\visual studio 2017\projects\mdipractice\mdipractice\mdipractice.cpp(499): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\mande\documents\visual studio 2017\projects\mdipractice\mdipractice\mdipractice.cpp(508): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\mande\documents\visual studio 2017\projects\mdipractice\mdipractice\mdipractice.cpp(523): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  MDIpractice.vcxproj -> C:\Users\mande\Documents\Visual Studio 2017\Projects\MDIpractice\Debug\MDIpractice.exe
-  MDIpractice.vcxproj -> C:\Users\mande\Documents\Visual Studio 2017\Projects\MDIpractice\Debug\MDIpractice.pdb (Partial PDB)
